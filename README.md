@@ -36,3 +36,11 @@ This project implements a simple moving average (SMA) crossover backtesting stra
 The backtest merges the 15-minute and 30-minute data files into a single timeline. Typical results show the total number of trades, asset cumulative return, strategy cumulative return, and total profit in USD.
 
 See `backtest_explanation.md` for a deeper analysis of why the strategy performs the way it does.
+
+## Design docs
+
+| Doc | What's inside |
+|---|---|
+| [High-Level Design](docs/hld.md) | Architecture, components, data flow, tech choices, deployment |
+| [Low-Level Design](docs/lld.md) | Modules, data models, APIs and functions, key sequences |
+
